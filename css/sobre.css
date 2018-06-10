@@ -1,4 +1,45 @@
 /*Arquivo responśável por estilizar a página sobre.html*/
+/*Parte responsável pelo Header*/
+.container{
+	margin: 0 auto;
+	width: 940px;
+}
+.sacola{
+	background-image: url(../img/sacola.png);
+	background-repeat:no-repeat;
+	background-position: top right;
+
+	font-size: 14px;
+	padding-right: 35px;
+	padding-top: 8px;
+	text-align: right;
+	width: 140px;
+
+	position: absolute;
+	top:  0;
+	right: 0;
+
+}
+header{
+	position: relative;
+}
+.menu-opcoes{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.menu-opcoes ul{
+	font-size: 14px;
+}
+.menu-opcoes ul li{
+	display: inline;
+	margin-left: 20px;
+}
+.menu-opcoes a{
+	color: #003366;
+
+}
+/*Parte responsável pelo Body*/
 /*Usando seletores de tags*/
 body{
 	color:#333333
@@ -7,7 +48,7 @@ body{
  	margin-right: auto;
  	width: 940px;
 }
-h1{
+#Mirror{
   background-image: url(../img/sobre-background.jpg);
   padding: 10px;
 }
