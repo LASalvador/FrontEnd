@@ -1,5 +1,9 @@
 /* Arquivo responsavel por estilizar a pagina index.html*/
 /* Bloco responsável pelo Header(Cabeçalho)*/
+.container{
+	margin: 0 auto;
+	width: 940px;
+}
 .sacola{
 	background-image: url(../img/sacola.png);
 	background-repeat:no-repeat;
@@ -41,9 +45,74 @@ body{
 	color: #333333;
 	font-family: "Lucida Sans Unicode","Lucida Grande ", sans-serif;
 }
+.busca h2, .busca form, .menu-departamento h2{
+	margin: 10px;
+}
 
+.busca input[type=search]{
+	width: 170px;
+}
+.busca, .menu-departamento{
+	background-color: #DCDCDC;
+	font-weight: bold;
+	text-transform: uppercase;
 
-.container{
-	margin: 0 auto;
-	width: 940px;
+	margin-right: 10px;
+	width: 	230px;
+
+	float:left;
+}
+/*responsável pelo menu */
+.menu-departamento{
+	clear: left;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.menu-departamento li{
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+.menu-departamento a{
+	color: #333333;
+	text-decoration: none;
+}
+/*responsável pelo banner */
+.banner-destaque{
+	margin-top: 10px;
+}
+/*responsaveis pelos paineis */
+.painel{
+	margin: 10px 0;
+	padding: 10px;
+	width: 445px;
+}
+.painel li{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+
+	margin: 2px;
+	padding-bottom: uppercase;
+}
+.painel h2{
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-bottom: 10px;
+}
+.painel a{
+	color:#333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.novidades{
+	float: left;
+	background-color: #F5DCDC
+}
+.mais-vendidos{
+	float: right;
+	background-color: #DCDCF5
 }
