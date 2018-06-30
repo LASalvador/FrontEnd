@@ -92,4 +92,40 @@ float:center;
 	float: right;
 	margin:0 0 10px 10px;
 }
+/*Responsável pelo rodapé*/
+footer{
+	background-image: url(../img/fundo-rodape.png);
+	clear: both;
+	padding:20px 0;
+}
+footer .conteiner{
+	position: relative;
+}
+.social{
+	position: absolute;
+	top: 1600px;
+	right: 200px;
+}
+.social li{
+	float: left;
+	margin-left: 25px;
+}
+.social a{
+	/*Tamanho da imagem */
+	height: 32px;
+	width: 32px;
+	/*Image replacement*/
+	display: block;
+	text-indent: -9999px;
+}
 
+/* Image replacement */
+.social a[href*='facebook.com']{
+	background-image: url(../img/facebook.png);
+}
+.social a[href*='twitter.com']{
+	background-image: url(../img/twitter.png);
+}
+.social a[href*='plus.google.com']{
+	background-image: url(../img/googleplus.png);
+}
