@@ -38,7 +38,12 @@ header{
 }
 .menu-opcoes a{
 	color: #003366;
-
+}
+.menu-opcoes a:hover{
+	color: #007DC6;
+}
+.menu-opcoes a:active{
+	color: #867DC6;
 }
 /*Bloco responsável pelo Body(Corpo)*/
 body{
@@ -89,6 +94,18 @@ body{
 .menu-departamento a{
 	color: #333333;
 	text-decoration: none;
+}
+.menu-departamento li ul{
+	display: none;
+}
+.menu-departamento li:hover ul{
+	display: block;
+}
+.menu-departamento ul ul li{
+	background-color: #DCDCDC;
+}
+.menu-departamentos	li	li	a:before	{
+		content:	'-	';
 }
 /*responsável pelo banner */
 .destaque{
