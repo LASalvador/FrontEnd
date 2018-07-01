@@ -76,6 +76,9 @@ h1 + p{
 p::first-line{
 	font-variant:small-caps;
 }
+:not(p) + p::first-line{
+	font-variant:small-caps;
+}
 #Mirror{
   background-image: url(../img/sobre-background.jpg);
   padding: 10px;
