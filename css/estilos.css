@@ -44,7 +44,7 @@ header{
 }
 .menu-opcoes a:active{
 	color: #867DC6;
-}
+}	
 /*Bloco responsável pelo Body(Corpo)*/
 body{
 	color: #333333;
@@ -104,8 +104,9 @@ body{
 .menu-departamento ul ul li{
 	background-color: #DCDCDC;
 }
-.menu-departamentos	li	li	a:before	{
-		content:	'-	';
+.menu-departamento	li	li	a:before{
+		content: '\272A';
+		padding-right: 3px;
 }
 /*responsável pelo banner */
 .destaque{
@@ -137,6 +138,11 @@ body{
 	font-size: 14px;
 	text-align: center;
 	text-decoration: none;
+}
+.painel h2:before{
+	content: '\2756';
+	padding-right: 5px;
+	opacity: 0.4;
 }
 .novidades{
 	float: left;
