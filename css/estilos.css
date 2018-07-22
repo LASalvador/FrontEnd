@@ -214,7 +214,7 @@ footer .container{
 }
 
 /*Parte responsável por garantir a responsividade*/
-@media (max-width: 320px){
+@media (max-width: 939px){
 	.container{
 		width: 96%;
 	}
