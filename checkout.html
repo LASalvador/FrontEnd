@@ -32,7 +32,61 @@
 							<dd>R$	129,90</dd>
 						</dl>					
 					</div><!--	fim	.card-body	-->
-			</div><!--	fim	.card	-->			
+			</div><!--	fim	.card	-->	
+			<form>
+				<fieldset>
+					<legend>Dados Pessoais</legend>
+					<div class="form-group">
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" class="form-control" autofocus>
+					</div>
+					<div class="form-group">
+						<label for="cpf">CPF</label>
+						<input type="text" name="cpf" id="cpf" class="form-control" placeholder="000.000.000-00">
+					</div>
+					<div class="form-group">
+						<label for="Email">Email</label>
+						<div	class="input-group	mb-3">
+							<div	class="input-group-prepend">
+									<span	class="input-group-text">@</span>
+							</div>
+							<input type="email" class="form-control" id="email" name="email"																							placeholder="doctor@who.com">
+						</div>
+					</div>
+					<div class="form-group custom-control custom-checkbox">
+						<input type="checkbox" name="newsletter" id="newsletter" value="Sim" checked class="custom-control-input">
+						<label class="custom-control-label" for="newsletter">Quero receber as novidades da Mirror Fashion!</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Dados do cartão</legend>
+					<div class="form-group">
+						<label for="numero-cartao">Numero do cartão</label>
+						<input type="text" name="numero-cartao" id="numero-cartao" class="form-control">
+					</div>
+					<div class="form-group">
+							<div class="input-group	mb-3">
+									<div class="input-group-prepend">
+										<label class="input-group-text"	for="bandeira-cartao">Bandeira</label>
+									</div>
+								<select name="bandeira-cartao" id="bandeira-cartao" class="custom-select">
+									<optgroup>
+										<option disabled selected>Selecione uma opção ... </option>
+										<option value="master">MasterCard</option>
+										<option value="Visa">Visa</option>
+										<option value="Elo">Elo</option>
+										<option value="Amex">American Express</option>
+									</optgroup>
+								</select>
+							</div>
+					</div>
+					<div class="form-group">
+						<label for="data-vencimento">Data de vencimento</label>
+						<input type="month" name="data-vencimento" id="data-vencimento" class="form-control">
+					</div>
+				</fieldset>
+				<button type="submit" class="btn btn-primary">Confirmar Pedido!</button>
+			</form>		
 		</div>
 	</body>
 </html>
