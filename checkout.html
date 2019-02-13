@@ -50,6 +50,14 @@
 							</div><!--	fim	.card-header	-->
 							<div	class="card-body">
 								<img src="img/produtos/foto1-verde.png" alt="Fuzzy Cardigan" class="img-thumbnail mb-3">
+								<div class="form-group">
+									<label for="qtd">Quantidade:</label>
+									<input type="number" name="qtd" min="1" max="90" value="1" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="total">Total:</label>
+									<output id="total" class="form-control">RS 129,90</output>
+								</div>
 								<dl>
 									<dt>Produto</dt>
 									<dd>Fuzzy	Cardigan</dd>
@@ -58,7 +66,7 @@
 									<dt>Tamanho</dt>
 									<dd>40</dd>
 									<dt>Preço</dt>
-									<dd>R$	129,90</dd>
+									<dd id="preco">R$	129,90</dd>
 								</dl>					
 							</div><!--	fim	.card-body	-->
 					</div><!--	fim	.card	-->	

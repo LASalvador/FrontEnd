@@ -50,7 +50,8 @@
 						</fieldset>
 						<fieldset class="tamanho">
 							 <legend>Escolha o tamnho</legend>
-							 <input type="range" name="tamanho" id="tamanho" min="36" max="46" value="42" step="2 ">
+							 <input type="range" name="tamanho" id="tamanho" min="36" max="46" value="42" step="2 " onclick="mostraTamanho()">
+							<output for="tamanho" id="valorTamanho">42</output>
 						</fieldset>
 
 						<button class='comprar'>Comprar</button>
@@ -89,6 +90,13 @@
 					</table>
 				</div>
 			</div>
+			<script type="text/javascript">
+				var inputTamanho = document.querySelector('[name=tamanho]');
+				var outputTamanho = document.querySelector('[id=valorTamanho]');
+				function mostraTamanho(){
+					outputTamanho.value = inputTamanho.value
+				}
+			</script>
 		</div>
 
 		<footer>
